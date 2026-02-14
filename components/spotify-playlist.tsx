@@ -10,8 +10,7 @@ export function SpotifyPlaylist() {
         data-testid="embed-iframe"
         style={{ borderRadius: "12px" }}
         src="https://open.spotify.com/embed/playlist/6BHOTcJf30L79geITFkU71?utm_source=generator&theme=0"
-        width="700"
-        height="352"
+        className="w-full max-w-[700px] h-[152px] sm:h-[202px] md:h-[252px] lg:h-[302px] xl:h-[352px]"
         frameBorder="0"
         allowFullScreen
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
